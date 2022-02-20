@@ -13,7 +13,26 @@
 		1F346A6A27BE72B000E713A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F346A6827BE72B000E713A0 /* Main.storyboard */; };
 		1F346A6C27BE72B300E713A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F346A6B27BE72B300E713A0 /* Assets.xcassets */; };
 		1F346A6F27BE72B300E713A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F346A6D27BE72B300E713A0 /* LaunchScreen.storyboard */; };
+		1F346A7B27BE802A00E713A0 /* openCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F346A7A27BE802A00E713A0 /* openCVWrapper.mm */; };
+		1F9362E827C0EDBC00F1F73D /* СustomCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9362E727C0EDBC00F1F73D /* СustomCameraController.swift */; };
+		1F9362EA27C0EE6B00F1F73D /* PhotoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9362E927C0EE6B00F1F73D /* PhotoPreviewView.swift */; };
+		1F9362EC27C0EF0800F1F73D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9362EB27C0EF0800F1F73D /* UIView.swift */; };
+		1F9362EF27C16A3600F1F73D /* GPUImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1F9362EE27C16A3600F1F73D /* GPUImage */; };
+		CE8C5ECDD0DB275F1B31EA86 /* Pods_ProjectOpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2C597B2DABDA9477F0D530 /* Pods_ProjectOpenCV.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F346A8427BEAD7900E713A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F346A5F27BE72B000E713A0 /* ProjectOpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectOpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +43,19 @@
 		1F346A6B27BE72B300E713A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F346A6E27BE72B300E713A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F346A7027BE72B300E713A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F346A7827BE802A00E713A0 /* ProjectOpenCV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectOpenCV-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F346A7927BE802A00E713A0 /* openCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openCVWrapper.h; sourceTree = "<group>"; };
+		1F346A7A27BE802A00E713A0 /* openCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = openCVWrapper.mm; sourceTree = "<group>"; };
+		1F346A7C27BEA63B00E713A0 /* ProjectOpenCVRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectOpenCVRelease.entitlements; sourceTree = "<group>"; };
+		1F346A7D27BEA64A00E713A0 /* ProjectOpenCV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectOpenCV.entitlements; sourceTree = "<group>"; };
+		1F346A8127BEAD7900E713A0 /* ImglyKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ImglyKit.xcframework; path = Pods/imglyKit/ImglyKit.xcframework; sourceTree = "<group>"; };
+		1F346A8527BEAD8700E713A0 /* PhotoEditorSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PhotoEditorSDK.xcframework; path = Pods/PhotoEditorSDK/PhotoEditorSDK.xcframework; sourceTree = "<group>"; };
+		1F9362E727C0EDBC00F1F73D /* СustomCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СustomCameraController.swift"; sourceTree = "<group>"; };
+		1F9362E927C0EE6B00F1F73D /* PhotoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewView.swift; sourceTree = "<group>"; };
+		1F9362EB27C0EF0800F1F73D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		492930EA904838F1469EC2B5 /* Pods-ProjectOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectOpenCV.release.xcconfig"; path = "Target Support Files/Pods-ProjectOpenCV/Pods-ProjectOpenCV.release.xcconfig"; sourceTree = "<group>"; };
+		8B2C597B2DABDA9477F0D530 /* Pods_ProjectOpenCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectOpenCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE152EA2BD0438C807FAE6BB /* Pods-ProjectOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectOpenCV.debug.xcconfig"; path = "Target Support Files/Pods-ProjectOpenCV/Pods-ProjectOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8C5ECDD0DB275F1B31EA86 /* Pods_ProjectOpenCV.framework in Frameworks */,
+				1F9362EF27C16A3600F1F73D /* GPUImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,8 @@
 			children = (
 				1F346A6127BE72B000E713A0 /* ProjectOpenCV */,
 				1F346A6027BE72B000E713A0 /* Products */,
+				CC5612F4981C55D3D5B87D4A /* Pods */,
+				970A5A57F2C3D2A694987106 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,42 @@
 		1F346A6127BE72B000E713A0 /* ProjectOpenCV */ = {
 			isa = PBXGroup;
 			children = (
+				1F346A7D27BEA64A00E713A0 /* ProjectOpenCV.entitlements */,
+				1F346A7C27BEA63B00E713A0 /* ProjectOpenCVRelease.entitlements */,
 				1F346A6227BE72B000E713A0 /* AppDelegate.swift */,
 				1F346A6427BE72B000E713A0 /* SceneDelegate.swift */,
 				1F346A6627BE72B000E713A0 /* ViewController.swift */,
+				1F9362E727C0EDBC00F1F73D /* СustomCameraController.swift */,
+				1F9362EB27C0EF0800F1F73D /* UIView.swift */,
+				1F9362E927C0EE6B00F1F73D /* PhotoPreviewView.swift */,
+				1F346A7927BE802A00E713A0 /* openCVWrapper.h */,
+				1F346A7A27BE802A00E713A0 /* openCVWrapper.mm */,
 				1F346A6827BE72B000E713A0 /* Main.storyboard */,
 				1F346A6B27BE72B300E713A0 /* Assets.xcassets */,
 				1F346A6D27BE72B300E713A0 /* LaunchScreen.storyboard */,
 				1F346A7027BE72B300E713A0 /* Info.plist */,
+				1F346A7827BE802A00E713A0 /* ProjectOpenCV-Bridging-Header.h */,
 			);
 			path = ProjectOpenCV;
+			sourceTree = "<group>";
+		};
+		970A5A57F2C3D2A694987106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F346A8527BEAD8700E713A0 /* PhotoEditorSDK.xcframework */,
+				1F346A8127BEAD7900E713A0 /* ImglyKit.xcframework */,
+				8B2C597B2DABDA9477F0D530 /* Pods_ProjectOpenCV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC5612F4981C55D3D5B87D4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE152EA2BD0438C807FAE6BB /* Pods-ProjectOpenCV.debug.xcconfig */,
+				492930EA904838F1469EC2B5 /* Pods-ProjectOpenCV.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +137,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F346A7327BE72B300E713A0 /* Build configuration list for PBXNativeTarget "ProjectOpenCV" */;
 			buildPhases = (
+				31940480070DBF66D09F281C /* [CP] Check Pods Manifest.lock */,
 				1F346A5B27BE72B000E713A0 /* Sources */,
 				1F346A5C27BE72B000E713A0 /* Frameworks */,
 				1F346A5D27BE72B000E713A0 /* Resources */,
+				F89F12F4042025ED58AACE75 /* [CP] Embed Pods Frameworks */,
+				1F346A8427BEAD7900E713A0 /* Embed Frameworks */,
+				1F346A8827BEADE800E713A0 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ProjectOpenCV;
+			packageProductDependencies = (
+				1F9362EE27C16A3600F1F73D /* GPUImage */,
+			);
 			productName = ProjectOpenCV;
 			productReference = 1F346A5F27BE72B000E713A0 /* ProjectOpenCV.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +169,7 @@
 				TargetAttributes = {
 					1F346A5E27BE72B000E713A0 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -111,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 1F346A5627BE72B000E713A0;
+			packageReferences = (
+				1F9362ED27C16A3500F1F73D /* XCRemoteSwiftPackageReference "GPUImage3" */,
+			);
 			productRefGroup = 1F346A6027BE72B000E713A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +207,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F346A8827BEADE800E713A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		31940480070DBF66D09F281C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectOpenCV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F89F12F4042025ED58AACE75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectOpenCV/Pods-ProjectOpenCV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectOpenCV/Pods-ProjectOpenCV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectOpenCV/Pods-ProjectOpenCV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F346A5B27BE72B000E713A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +274,10 @@
 			files = (
 				1F346A6727BE72B000E713A0 /* ViewController.swift in Sources */,
 				1F346A6327BE72B000E713A0 /* AppDelegate.swift in Sources */,
+				1F346A7B27BE802A00E713A0 /* openCVWrapper.mm in Sources */,
+				1F9362EC27C0EF0800F1F73D /* UIView.swift in Sources */,
+				1F9362E827C0EDBC00F1F73D /* СustomCameraController.swift in Sources */,
+				1F9362EA27C0EE6B00F1F73D /* PhotoPreviewView.swift in Sources */,
 				1F346A6527BE72B000E713A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +337,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -260,6 +401,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -284,14 +428,21 @@
 		};
 		1F346A7427BE72B300E713A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE152EA2BD0438C807FAE6BB /* Pods-ProjectOpenCV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ProjectOpenCV/ProjectOpenCV.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VKH5838WR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectOpenCV/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photo user ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We a use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,24 +453,34 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariupol.bravobet.ProjectOpenCV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariupol.ProjectOpenCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ProjectOpenCV/ProjectOpenCV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1F346A7527BE72B300E713A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492930EA904838F1469EC2B5 /* Pods-ProjectOpenCV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ProjectOpenCV/ProjectOpenCVRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VKH5838WR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectOpenCV/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photo user ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We a use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,11 +491,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariupol.bravobet.ProjectOpenCV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariupol.ProjectOpenCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ProjectOpenCV/ProjectOpenCV-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +523,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F9362ED27C16A3500F1F73D /* XCRemoteSwiftPackageReference "GPUImage3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BradLarson/GPUImage3";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F9362EE27C16A3600F1F73D /* GPUImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F9362ED27C16A3500F1F73D /* XCRemoteSwiftPackageReference "GPUImage3" */;
+			productName = GPUImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F346A5727BE72B000E713A0 /* Project object */;
 }
